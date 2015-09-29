@@ -1,5 +1,5 @@
 .navbar {
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.1);
 }
 
 header {
@@ -14,15 +14,15 @@ a.navbar-brand.page-scroll {
 }
 
 a.navbar-brand.page-scroll:hover {
-  color: #0276FD;
+  color: #3CC4FF;
 }
 
 a.page-scroll:hover {
-  color: #0276FD;
+  color: #3CC4FF;
 }
 
 .btn-xl {
-  border-color: #0276FD;
+  border-color: #BEFF00;
   background-color: #0276FD;
 }
 
@@ -32,10 +32,29 @@ a.page-scroll:hover {
   color: #FFF;
 }
 
-.blue {
-  color: #0276FD;
+.transition {
+    animation:transition 30s infinite;
+  -moz-animation:transition 30s infinite; /* Firefox */
+  -webkit-animation:transition 30s infinite; /* Safari and Chrome */
 }
 
+@-moz-keyframes transition /* Firefox */
+{
+0%   {background:#CDFF33;}
+25%  {background:#3CC4FF;}
+50%  {background:#D43AFF;}
+75%  {background:#FF3371;}
+100% {background:#CDFF33;}
+}
+
+  @-webkit-keyframes transition /* Firefox */
+{
+0%   {background:#CDFF33;}
+25%  {background:#3CC4FF;}
+50%  {background:#D43AFF;}
+75%  {background:#FF3371;}
+100% {background:#CDFF33;}
+}
 /*section#contact .section-heading {
   color: #FFF;
 }*/
