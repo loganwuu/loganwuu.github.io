@@ -1,5 +1,5 @@
 .navbar {
-  background: rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0.2);
 }
 
 header {
@@ -22,13 +22,15 @@ a.page-scroll:hover {
 }
 
 .btn-xl {
-  border-color: #BEFF00;
-  background-color: #0276FD;
+  border-color: #3CC4FF;
+  border-width: 2px;
+  color: #3CC4FF;
+  background-color: #fff;
 }
 
 .btn.btn-xl:hover {
-  border-color: #FFF;
-  background-color: #0147FA;
+  border-color: #3CC4FF;
+  background-color: #3CC4FF;
   color: #FFF;
 }
 
@@ -69,5 +71,5 @@ a.page-scroll:hover {
 }
 
 .text-primary {
-    color: #0276FD;
+    color: #3CC4FF;
 }
