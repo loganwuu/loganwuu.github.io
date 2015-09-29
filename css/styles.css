@@ -1,0 +1,54 @@
+.navbar {
+  background: rgba(0,0,0,0.3);
+}
+
+header {
+  height: 100vh;
+}
+
+/* Change color from yellow to blue */
+/* dark blue #0147FA */
+
+a.navbar-brand.page-scroll {
+  color: #FFF;
+}
+
+a.navbar-brand.page-scroll:hover {
+  color: #0276FD;
+}
+
+a.page-scroll:hover {
+  color: #0276FD;
+}
+
+.btn-xl {
+  border-color: #0276FD;
+  background-color: #0276FD;
+}
+
+.btn.btn-xl:hover {
+  border-color: #FFF;
+  background-color: #0147FA;
+  color: #FFF;
+}
+
+.blue {
+  color: #0276FD;
+}
+
+/*section#contact .section-heading {
+  color: #FFF;
+}*/
+
+.navbar-nav>.active>a:hover {
+  color: red;
+  background-color: red;
+}
+
+.nav li a:hover {
+  color: purple;
+}
+
+.text-primary {
+    color: #0276FD;
+}
