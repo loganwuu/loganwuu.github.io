@@ -20,6 +20,8 @@ body {
 p {
     font-size: 14px;
     line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 p.large {
@@ -130,6 +132,7 @@ fieldset[disabled] .btn-primary.active {
     color: #fff;
     background-color: #3CC4FF;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .btn-xl:hover,
