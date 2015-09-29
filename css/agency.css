@@ -306,6 +306,8 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media(min-width:768px) {
@@ -320,6 +322,8 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
 
     header .intro-text .intro-heading {
@@ -329,6 +333,8 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
 }
 
@@ -349,6 +355,8 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media(min-width:768px) {

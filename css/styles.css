@@ -29,6 +29,8 @@ a.page-scroll:hover {
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .btn.btn-xl:hover {
@@ -50,20 +52,20 @@ a.page-scroll:hover {
 
 @-moz-keyframes transition /* Firefox */
 {
-0%   {background:#CDFF33;}
-25%  {background:#3CC4FF;}
-50%  {background:#D43AFF;}
-75%  {background:#FF3371;}
-100% {background:#CDFF33;}
+    0%   {color:#CDFF33;}
+    25%  {color:#3CC4FF;}
+    50%  {color:#D43AFF;}
+    75%  {color:#FF3371;}
+    100% {color:#CDFF33;}
 }
 
   @-webkit-keyframes transition /* Firefox */
 {
-0%   {background:#CDFF33;}
-25%  {background:#3CC4FF;}
-50%  {background:#D43AFF;}
-75%  {background:#FF3371;}
-100% {background:#CDFF33;}
+    0%   {color:#CDFF33;}
+    25%  {color:#3CC4FF;}
+    50%  {color:#D43AFF;}
+    75%  {color:#FF3371;}
+    100% {color:#CDFF33;}
 }
 /*section#contact .section-heading {
   color: #FFF;
