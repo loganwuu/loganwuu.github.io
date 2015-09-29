@@ -54,6 +54,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    -webkit-font-smoothing: antialiased;
 }
 
 .img-centered {
@@ -75,6 +76,7 @@ h6 {
     font-weight: 700;
     color: #fff;
     background-color: #3CC4FF;
+    -webkit-font-smoothing: antialiased;
 }
 
 .btn-primary:hover,
@@ -127,6 +129,7 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #3CC4FF;
+    -webkit-font-smoothing: antialiased;
 }
 
 .btn-xl:hover,
@@ -177,6 +180,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #3CC4FF;
+    -webkit-font-smoothing: antialiased;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -214,6 +218,7 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
+    -webkit-font-smoothing: antialiased;
 }
 
 .navbar-default .nav li a:hover,
