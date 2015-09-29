@@ -6,7 +6,7 @@
 
 ## Technologies Used
 
-HTML, CSS, JavaScript, Bootstrap, Agency theme, SVG, Animation, less, scss, PHP, font-awesome,
+HTML, CSS, JavaScript, Bootstrap, Agency Bootstrap theme, SVG, Animation, less, sass, PHP, Font Awesome, animate.css, wow.js
 
 ### Legal
 

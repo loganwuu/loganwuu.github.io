@@ -24,14 +24,17 @@ a.page-scroll:hover {
 .btn-xl {
   border-color: #3CC4FF;
   border-width: 2px;
-  color: #3CC4FF;
-  background-color: #fff;
+  color: #fff;
+  opacity: 0.3;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 
 .btn.btn-xl:hover {
   border-color: #3CC4FF;
   background-color: #3CC4FF;
   color: #FFF;
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .transition {
