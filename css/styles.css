@@ -27,6 +27,9 @@ a.page-scroll:hover {
   color: #fff;
   opacity: 0.3;
   filter: alpha(opacity=30); /* For IE8 and earlier */
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
 }
 
 .btn.btn-xl:hover {
@@ -35,6 +38,9 @@ a.page-scroll:hover {
   color: #FFF;
   opacity: 1;
   filter: alpha(opacity=100); /* For IE8 and earlier */
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
 }
 
 .transition {
@@ -74,5 +80,5 @@ a.page-scroll:hover {
 }
 
 .text-primary {
-    color: #3CC4FF;
+  color: #3CC4FF;
 }
