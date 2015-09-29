@@ -33,7 +33,7 @@ a.page-scroll:hover {
 }
 
 .transition {
-    animation:transition 30s infinite;
+  animation:transition 30s infinite;
   -moz-animation:transition 30s infinite; /* Firefox */
   -webkit-animation:transition 30s infinite; /* Safari and Chrome */
 }
