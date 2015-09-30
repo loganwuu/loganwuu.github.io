@@ -2,9 +2,9 @@
   background: rgba(0,0,0,0);
 }
 
-header {
+/*header {
   height: 100vh;
-}
+}*/
 
 /* Change color from yellow to blue */
 /* dark blue #0147FA */
@@ -45,9 +45,9 @@ a.page-scroll:hover {
 }
 
 .transition {
-  animation:transition 30s infinite;
-  -moz-animation:transition 30s infinite; /* Firefox */
-  -webkit-animation:transition 30s infinite; /* Safari and Chrome */
+  animation:transition 25s infinite;
+  -moz-animation:transition 25s infinite; /* Firefox */
+  -webkit-animation:transition 25s infinite; /* Safari and Chrome */
 }
 
 @-moz-keyframes transition /* Firefox */

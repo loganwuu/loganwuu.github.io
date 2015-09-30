@@ -20,6 +20,12 @@
     <!-- animate CSS -->
     <link href="css/animate.css" rel="stylesheet">
 
+    <!-- wow.js animation -->
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -88,7 +94,7 @@
 
     <!-- Header -->
     <header>
-        <div class="container animated bounceInUp">
+        <div class="container animated fadeInUp">
             <div class="intro-text">
                 <div class="intro-lead-in transition">welcome to my website!</div>
                 <div class="intro-heading transition">it&rsquo;s nice seeing you.</div>
@@ -112,11 +118,11 @@
             <div class="row">
               <div class="col-sm-4">
                 <div class="team-member">
-                  <img src="img/about/selfie.jpg" class="img-responsive img-circle" alt="Picture of
+                  <img src="img/about/selfie.jpg" class="img-responsive img-circle wow fadeInUp" alt="Picture of
                   Logan Wu">
                   <h4>Logan Wu</h4>
                   <p class="text-muted">Web Developer</p>
-                  <ul class="list-inline social-buttons">
+                  <ul class="list-inline social-buttons wow bounceInUp">
                     <li>
                       <a href="https://github.com/loganwuu" target="_blank">
                         <i class="fa fa-github"></i>
@@ -162,31 +168,32 @@
         </div>
         <div class="row text-center">
             <div class="col-md-4">
-                <span class="fa-stack fa-4x">
+                <span class="fa-stack fa-4x wow bounceInUp">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="service-heading">Designer</h4>
-                <p class="text-muted">I have a Bachelor's degree in Graphic Design. I love typography, logo, UX, and different types of design.</p>
+                <p class="text-muted">I have a Bachelor's degree in Graphic Design. I love to learn more about typography, logo, UX,
+                    and different types of design.</p>
             </div>
             <div class="col-md-4">
-                <span class="fa-stack fa-4x">
+                <span class="fa-stack fa-4x wow bounceInUp">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="service-heading">Web Developer</h4>
                 <p class="text-muted">PHP, Drupal, JavaScript, AngularJS,
                   Git, Github, HTML, CSS, jQuery, SQL, APIs, Agile Development,
-                  Node, CSS Animations, Sass, Less, Bootstrap,
-                  Mocha, Chai, unit test, BDD, TDD.</p>
+                  Animation, SVG, Sass, Less, Bootstrap,
+                  Mocha, Chai, BDD, TDD.</p>
             </div>
             <div class="col-md-4">
-                <span class="fa-stack fa-4x">
+                <span class="fa-stack fa-4x wow bounceInUp">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-camera-retro fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="service-heading">Photographer</h4>
-                <p class="text-muted">I started doing photography since 2010. I think it is a great way to devote my free time to. Here's my <a href="http://loganwuphoto.com/" target="_blank">
+                <p class="text-muted">I started doing photography since 2010. To me, it is a great way to devote my spare time to. Here's my <a href="http://loganwuphoto.com/" target="_blank">
                   photography blog.</a></p>
             </div>
         </div>
@@ -210,7 +217,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item wow fadeInUp">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -245,7 +252,7 @@
                 <div class="col-lg-12">
                     <ul class="timeline">
                         <li class="timeline-inverted">
-                            <div class="timeline-image">
+                            <div class="timeline-image wow bounceInUp">
                                 <img class="img-circle img-responsive" src="img/experience/psu.png" alt="">
                             </div>
                             <div class="timeline-panel">
@@ -261,7 +268,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="timeline-image">
+                            <div class="timeline-image wow bounceInUp">
                                 <img class="img-circle img-responsive" src="img/experience/parsons.png" alt="">
                             </div>
                             <div class="timeline-panel">
@@ -278,7 +285,7 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-image">
+                            <div class="timeline-image wow bounceInUp">
                                 <img class="img-circle img-responsive" src="img/experience/university-wisconsin-logo.png" alt="">
                             </div>
                             <div class="timeline-panel">
@@ -315,7 +322,7 @@
               <div class="col-lg-12">
                   <ul class="timeline">
                       <li class="timeline-inverted">
-                          <div class="timeline-image">
+                          <div class="timeline-image wow bounceInUp">
                               <img class="img-circle img-responsive" src="img/education/epicodus.png" alt="">
                           </div>
                           <div class="timeline-panel">
@@ -334,7 +341,7 @@
                           </div>
                       </li>
                       <li>
-                          <div class="timeline-image">
+                          <div class="timeline-image wow bounceInUp">
                               <img class="img-circle img-responsive" src="img/education/pcc.jpeg" alt="">
                           </div>
                           <div class="timeline-panel">
@@ -351,7 +358,7 @@
                           </div>
                       </li>
                       <li class="timeline-inverted">
-                          <div class="timeline-image">
+                          <div class="timeline-image wow bounceInUp">
                               <img class="img-circle img-responsive" src="img/education/parsons.png" alt="">
                           </div>
                           <div class="timeline-panel">
@@ -367,7 +374,7 @@
                           </div>
                       </li>
                       <li>
-                          <div class="timeline-image">
+                          <div class="timeline-image wow bounceInUp">
                               <img class="img-circle img-responsive" src="img/education/university-wisconsin-logo.png" alt="">
                           </div>
                           <div class="timeline-panel">
@@ -385,7 +392,7 @@
                           </div>
                       </li>
                       <li class="timeline-inverted">
-                          <div class="timeline-image">
+                          <div class="timeline-image wow bounceInUp">
                               <img class="img-circle img-responsive" src="img/education/osu.png" alt="">
                           </div>
                           <div class="timeline-panel">
@@ -411,7 +418,7 @@
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                  <ul class="list-inline social-buttons">
+                  <ul class="list-inline social-buttons wow bounceInUp">
                     <li>
                       <a href="https://github.com/loganwuu" target="_blank">
                         <i class="fa fa-github"></i>
@@ -478,15 +485,19 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
+
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
 </body>
