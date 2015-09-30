@@ -1,6 +1,6 @@
 # my website
 
-##### Personal website
+##### [Personal website](http://loganwuu.github.io)
 
 #### By Logan Wu
 
