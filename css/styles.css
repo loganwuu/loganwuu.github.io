@@ -54,8 +54,8 @@ a.page-scroll:hover {
 {
     0%   {color:#C8FF00;}
     25%  {color:#2BEFED;}
-    50%  {color:#FF68FF;}
-    75%  {color:#FF5588;}
+    50%  {color:#F956FF;}
+    75%  {color:#FF0066;}
     100% {color:#CDFF33;}
 }
 
@@ -63,8 +63,8 @@ a.page-scroll:hover {
 {
     0%   {color:#C8FF00;}
     25%  {color:#2BEFED;}
-    50%  {color:#FF68FF;}
-    75%  {color:#FF5588;}
+    50%  {color:#F956FF;}
+    75%  {color:#FF0066;}
     100% {color:#CDFF33;}
 }
 /*section#contact .section-heading {
