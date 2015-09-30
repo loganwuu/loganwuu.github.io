@@ -52,18 +52,18 @@ a.page-scroll:hover {
 
 @-moz-keyframes transition /* Firefox */
 {
-    0%   {color:#CDFF33;}
-    25%  {color:#3CC4FF;}
-    50%  {color:#A863FF;}
+    0%   {color:#C8FF00;}
+    25%  {color:#2BEFED;}
+    50%  {color:#968AFC;}
     75%  {color:#FF5588;}
     100% {color:#CDFF33;}
 }
 
   @-webkit-keyframes transition /* Firefox */
 {
-    0%   {color:#CDFF33;}
-    25%  {color:#3CC4FF;}
-    50%  {color:#A863FF;}
+    0%   {color:#C8FF00;}
+    25%  {color:#2BEFED;}
+    50%  {color:#968AFC;}
     75%  {color:#FF5588;}
     100% {color:#CDFF33;}
 }
