@@ -45,17 +45,17 @@ a.page-scroll:hover {
 }
 
 .transition {
-  animation:transition 25s infinite;
-  -moz-animation:transition 25s infinite; /* Firefox */
-  -webkit-animation:transition 25s infinite; /* Safari and Chrome */
+  animation:transition 30s infinite;
+  -moz-animation:transition 30s infinite; /* Firefox */
+  -webkit-animation:transition 30s infinite; /* Safari and Chrome */
 }
 
 @-moz-keyframes transition /* Firefox */
 {
     0%   {color:#CDFF33;}
     25%  {color:#3CC4FF;}
-    50%  {color:#D43AFF;}
-    75%  {color:#FF3371;}
+    50%  {color:#A863FF;}
+    75%  {color:#FF5588;}
     100% {color:#CDFF33;}
 }
 
@@ -63,8 +63,8 @@ a.page-scroll:hover {
 {
     0%   {color:#CDFF33;}
     25%  {color:#3CC4FF;}
-    50%  {color:#D43AFF;}
-    75%  {color:#FF3371;}
+    50%  {color:#A863FF;}
+    75%  {color:#FF5588;}
     100% {color:#CDFF33;}
 }
 /*section#contact .section-heading {
