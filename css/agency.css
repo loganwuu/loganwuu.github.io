@@ -265,7 +265,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 3em;
+        font-size: 2.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -285,6 +285,11 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+@media(min-width:992px) {
+    .navbar-default .navbar-brand {
+        font-size: 3em;
+    }
+}
 header {
     text-align: center;
     color: #fff;
