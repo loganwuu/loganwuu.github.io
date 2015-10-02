@@ -348,6 +348,10 @@ header .intro-text .intro-heading {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
+
+    p.large {
+        margin-top: 35px;
+    }
 }
 
 section {
