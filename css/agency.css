@@ -188,6 +188,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Lobster","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fff;
+    font-size: 1.5em;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -290,6 +291,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 3em;
     }
 }
+
 header {
     text-align: center;
     color: #fff;
