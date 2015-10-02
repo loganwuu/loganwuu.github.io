@@ -105,10 +105,10 @@ a.page-scroll:hover {
   color: #FFF;
 }*/
 
-.navbar-nav>.active>a:hover {
+/*.navbar-nav>.active>a:hover {
   color: red;
   background-color: red;
-}
+}*/
 
 .nav li a:hover {
   color: #3CC4FF;
