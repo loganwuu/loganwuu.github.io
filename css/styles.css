@@ -42,9 +42,14 @@ a.page-scroll:hover {
 }
 
 .btn.btn-xl:hover {
+  color: #fff;
   animation:background 25s infinite;
   -moz-animation:background 25s infinite; /* Firefox */
   -webkit-animation:background 25s infinite; /* Safari and Chrome */
+  
+  animation:border-color 25s infinite;
+  -moz-animation:border-color 25s infinite; /* Firefox */
+  -webkit-animation:border-color 25s infinite; /* Safari and Chrome */
   
   /*border-color: #3CC4FF;
   background-color: #3CC4FF;
@@ -55,6 +60,25 @@ a.page-scroll:hover {
   -moz-transition: all .3s;
   transition: all .3s;*/
 }
+
+@-moz-keyframes background /* Firefox */
+{
+    0%   {border-color:#C8FF00;}
+    25%  {border-color:#2BEFED;}
+    50%  {border-color:#F956FF;}
+    75%  {border-color:#FFC0CB;}
+    100% {border-color:#CDFF33;}
+}
+
+@-webkit-keyframes background /* Firefox */
+{
+    0%   {border-color:#C8FF00;}
+    25%  {border-color:#2BEFED;}
+    50%  {border-color:#F956FF;}
+    75%  {border-color:#FFC0CB;}
+    100% {border-color:#CDFF33;}
+}
+
 
 /*background color transition*/
 .background {
