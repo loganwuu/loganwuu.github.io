@@ -42,11 +42,15 @@ a.page-scroll:hover {
 }
 
 .btn.btn-xl:hover {
-  border-color: #3CC4FF;
+  animation:background 25s infinite;
+  -moz-animation:background 25s infinite; /* Firefox */
+  -webkit-animation:background 25s infinite; /* Safari and Chrome */
+  
+  /*border-color: #3CC4FF;
   background-color: #3CC4FF;
   color: #FFF;
   opacity: 1;
-  filter: alpha(opacity=100); /* For IE8 and earlier */
+  filter: alpha(opacity=100);  For IE8 and earlier */
   /*-webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;*/
@@ -64,7 +68,7 @@ a.page-scroll:hover {
     0%   {background:#C8FF00;}
     25%  {background:#2BEFED;}
     50%  {background:#F956FF;}
-    75%  {background:#FF0066;}
+    75%  {background:#FFC0CB;}
     100% {background:#CDFF33;}
 }
 
@@ -73,7 +77,7 @@ a.page-scroll:hover {
     0%   {background:#C8FF00;}
     25%  {background:#2BEFED;}
     50%  {background:#F956FF;}
-    75%  {background:#FF0066;}
+    75%  {background:#FFC0CB;}
     100% {background:#CDFF33;}
 }
 
@@ -89,7 +93,7 @@ a.page-scroll:hover {
     0%   {color:#C8FF00;}
     25%  {color:#2BEFED;}
     50%  {color:#F956FF;}
-    75%  {color:#FF0066;}
+    75%  {color:#FFC0CB;}
     100% {color:#CDFF33;}
 }
 
@@ -98,7 +102,7 @@ a.page-scroll:hover {
     0%   {color:#C8FF00;}
     25%  {color:#2BEFED;}
     50%  {color:#F956FF;}
-    75%  {color:#FF0066;}
+    75%  {color:#FFC0CB;}
     100% {color:#CDFF33;}
 }
 /*section#contact .section-heading {
