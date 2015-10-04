@@ -143,3 +143,6 @@ a.page-scroll:hover {
 .text-primary {
   color: #3CC4FF;
 }
+
+/* remove empty white space at the bottom of index.html */
+body {padding:0;margin:0;}
