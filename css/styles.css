@@ -34,9 +34,9 @@ a.page-scroll:hover {
   border-width: 1.5px;
   color: #fff;
   background-color: Transparent;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
