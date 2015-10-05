@@ -889,20 +889,20 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #3CC4FF;
+    background: #a8d1ff;
 }
 
 ::selection {
     text-shadow: none;
-    background: #3CC4FF;
+    background: #a8d1ff;
 }
 
 img::selection {
-    background: 0 0;
+    background: #a8d1ff;
 }
 
 img::-moz-selection {
-    background: 0 0;
+    background: #a8d1ff;
 }
 
 body {
