@@ -10,6 +10,13 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 
+@media(max-width:768px) {
+    .navbar {
+        background: #000;
+        border: 0;
+    }
+}
+
 /*header {
   height: 100vh;
 }*/
