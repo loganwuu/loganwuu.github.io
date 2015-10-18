@@ -10,7 +10,7 @@ HTML, CSS, JavaScript, Bootstrap, Agency Bootstrap theme, SVG, Animation, less, 
 
 ### Legal
 
-Copyright (c) 2015 **Logan Wu**
+Copyright &#169; 2015 **Logan Wu**
 
 This software is licensed under the MIT license.
 
