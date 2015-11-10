@@ -121,10 +121,7 @@ a.page-scroll:hover {
 }
 
 .text-primary {
-    color: linear-gradient(#53aee0,#3da4dc);
-    color: -webkit-linear-gradient(#53aee0,#3da4dc);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    color: #53aee0;
 }
 
 /* remove empty white space at the bottom of index.html */
