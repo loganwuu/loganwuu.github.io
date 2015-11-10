@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color: #3CC4FF;
+    color: #53aee0;
 }
 
 p {
@@ -73,12 +73,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #3CC4FF;
+    border-color: #53aee0;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #3CC4FF;
+    background-color: #53aee0;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -89,7 +89,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #3CC4FF;
+    background-color: #53aee0;
 }
 
 .btn-primary:active,
@@ -113,25 +113,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #3CC4FF;
-    background-color: #3CC4FF;
+    border-color: #53aee0;
+    background-color: #53aee0;
 }
 
 .btn-primary .badge {
-    color: #3CC4FF;
+    color: #53aee0;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #3CC4FF;
+    border-color: #53aee0;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #3CC4FF;
+    background-color: #53aee0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -173,12 +173,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #3CC4FF;
-    background-color: #3CC4FF;
+    border-color: #53aee0;
+    background-color: #53aee0;
 }
 
 .btn-xl .badge {
-    color: #3CC4FF;
+    color: #53aee0;
     background-color: #fff;
 }
 
@@ -208,7 +208,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     /*border-color: #3CC4FF;*/
-    background-color: #3CC4FF;
+    background-color: #53aee0;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
@@ -219,7 +219,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #3CC4FF;
+    background-color: #53aee0;
     opacity: 1;
     filter: alpha(opacity=100); /* For IE8 and earlier */
     -webkit-font-smoothing: antialiased;
@@ -250,13 +250,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #3CC4FF;
+    background-color: #53aee0;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #3CC4FF;
+    background-color: #53aee0;
 }
 
 @media(min-width:768px) {
@@ -928,5 +928,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #3CC4FF;
+    webkit-tap-highlight-color: #53aee0;
 }
