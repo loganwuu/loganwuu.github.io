@@ -134,6 +134,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.15);
     background-color: #53aee0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
