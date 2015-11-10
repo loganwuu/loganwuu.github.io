@@ -710,10 +710,12 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    box-shadow: inset 0 -1px #eb412b, 0px 1px #e3e2dd;
+    background-color: #f47a33;
+    background-image: -webkit-linear-gradient(#f47a33, #f26234);
+    background-image: linear-gradient(#f47a33, #f26234);
+    border-top: 1px solid #eb412b;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
