@@ -50,10 +50,9 @@ a.page-scroll:hover {
 
 .btn.btn-xl:hover {
   color: #3CC4FF;
-  border-color: #2C3539;
-  
+  /*border-color: #2C3539;
   background-color: #3CC4FF;
-  /*color: #FFF;
+  color: #FFF;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;*/
