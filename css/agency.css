@@ -743,7 +743,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #3CC4FF;
+    border-color: #53aee0;
     box-shadow: none;
 }
 
