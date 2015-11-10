@@ -809,6 +809,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.10);
     background-color: #222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -818,7 +819,11 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #3CC4FF;
+    background-color: #53aee0;
+    background-image: -webkit-linear-gradient(#53aee0,#3da4dc);
+    background-image: linear-gradient(#53aee0,#3da4dc);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .btn:focus,
