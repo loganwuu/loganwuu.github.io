@@ -296,13 +296,18 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.png);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    /*background-image: url(../img/header-bg.png);*/
+    /*background-position: center center;*/
+    /*background-repeat: none;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*background-size: cover;*/
+    /*-o-background-size: cover;*/
+    box-shadow: inset 0 -1px #eb412b, 0px 1px #e3e2dd;
+    background-color: #f47a33;
+    background-image: -webkit-linear-gradient(#f47a33, #f26234);
+    background-image: linear-gradient(#f47a33, #f26234);
+    border-top: 1px solid #eb412b;
 }
 
 header .intro-text {
