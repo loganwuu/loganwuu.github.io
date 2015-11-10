@@ -213,8 +213,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle {
     /*border-color: #3CC4FF;*/
     background-color: #53aee0;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 .navbar-default .navbar-toggle .icon-bar {
