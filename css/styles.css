@@ -128,5 +128,11 @@ a.page-scroll:hover {
     text-shadow: 0px 2px 2px rgba(0,0,0,0.10);
 }
 
+.intro-lead-in,
+.intro-heading,
+.col-lg-12.text-center {
+    cursor: default;
+}
+
 /* remove empty white space at the bottom of index.html */
 /*body {padding:0;margin:0;}*/
