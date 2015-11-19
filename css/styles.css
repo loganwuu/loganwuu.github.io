@@ -1,0 +1,140 @@
+.navbar {
+    /*gradient transparent nav bar on smaller screens*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.5+0,0+100 */
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+@media(max-width:768px) {
+    .navbar {
+        background: #000;
+        border: 0;
+    }
+}
+
+/*header {
+  height: 100vh;
+}*/
+
+/* Change color from yellow to blue */
+/* dark blue #0147FA */
+
+a.navbar-brand.page-scroll {
+  color: #FFF;
+}
+
+a.navbar-brand.page-scroll:hover {
+  color: #53aee0;
+}
+
+a.page-scroll:hover {
+  color: #53aee0;
+}
+
+.btn-xl {
+  border-color: #fff;
+  border-width: 1.5px;
+  color: #fff;
+  background-color: Transparent;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn.btn-xl:hover {
+  color: #fff;
+  /*border-color: #2C3539;
+  background-color: #3CC4FF;
+  color: #FFF;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;*/
+}
+
+/*background color transition*/
+.background {
+  animation:background 20s infinite;
+  -moz-animation:background 20s infinite; /* Firefox */
+  -webkit-animation:background 20s infinite; /* Safari and Chrome */
+}
+
+@-moz-keyframes background /* Firefox */
+{
+    0%   {background:#C8FF00;}
+    25%  {background:#2BEFED;}
+    50%  {background:#FB82FF;}
+    75%  {background:#FFC0CB;}
+    100% {background:#CDFF33;}
+}
+
+@-webkit-keyframes background /* Firefox */
+{
+    0%   {background:#C8FF00;}
+    25%  {background:#2BEFED;}
+    50%  {background:#FB82FF;}
+    75%  {background:#FFC0CB;}
+    100% {background:#CDFF33;}
+}
+
+/*text color transition*/
+.transition {
+  animation:transition 20s infinite;
+  -moz-animation:transition 20s infinite; /* Firefox */
+  -webkit-animation:transition 20s infinite; /* Safari and Chrome */
+}
+
+@-moz-keyframes transition /* Firefox */
+{
+    0%   {color:#C8FF00;}
+    25%  {color:#2BEFED;}
+    50%  {color:#FB82FF;}
+    75%  {color:#FFC0CB;}
+    100% {color:#CDFF33;}
+}
+
+@-webkit-keyframes transition /* Firefox */
+{
+    0%   {color:#C8FF00;}
+    25%  {color:#2BEFED;}
+    50%  {color:#FB82FF;}
+    75%  {color:#FFC0CB;}
+    100% {color:#CDFF33;}
+}
+/*section#contact .section-heading {
+  color: #FFF;
+}*/
+
+/*.navbar-nav>.active>a:hover {
+  color: red;
+  background-color: red;
+}*/
+
+.nav li a:hover {
+  color: #53aee0;
+}
+
+.text-primary {
+    color: #53aee0;
+}
+
+.big-social-button {
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.10);
+}
+
+h4,
+.copyright,
+.intro-lead-in,
+.intro-heading,
+.col-lg-12.text-center {
+    cursor: default;
+}
+
+/* remove empty white space at the bottom of index.html */
+/*body {padding:0;margin:0;}*/
