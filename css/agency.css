@@ -45,10 +45,11 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #53aee0;
+    color: #337ab7;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+    text-decoration: none;
 }
 
 h1,
