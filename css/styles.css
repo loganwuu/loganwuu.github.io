@@ -32,9 +32,9 @@ a.navbar-brand.page-scroll:hover {
   color: #53aee0;
 }
 
-a.page-scroll:hover {
-  color: #53aee0;
-}
+/*a.page-scroll:hover {*/
+/*  color: #53aee0;*/
+/*}*/
 
 .btn-xl {
   border-color: #fff;
