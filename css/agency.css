@@ -146,12 +146,11 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #fff;
-    color: #f47a33;
-    background-color: #fff;
-    text-shadow: 0;
-    /*background-image: -webkit-linear-gradient(#53aee0,#3da4dc);*/
-    /*background-image: linear-gradient(#53aee0,#3da4dc);*/
+    border-color: #53aee0;
+    color: #fff;
+    background-color: #53aee0;
+    background-image: -webkit-linear-gradient(#53aee0,#3da4dc);
+    background-image: linear-gradient(#53aee0,#3da4dc);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
