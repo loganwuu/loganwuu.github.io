@@ -48,15 +48,15 @@ a.page-scroll:hover {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.btn.btn-xl:hover {
-  color: #fff;
+/*.btn.btn-xl:hover {*/
+/*  color: #fff;*/
   /*border-color: #2C3539;
   background-color: #3CC4FF;
   color: #FFF;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;*/
-}
+/*}*/
 
 /*background color transition*/
 .background {
