@@ -53,6 +53,12 @@ a.active {
     -moz-transition: all .3s;
     transition: all .3s;
     text-decoration: none;
+}
+
+p a:hover,
+p a:focus,
+p a:active,
+p a.active  {
     border-bottom: 1px solid #337ab7;
 }
 
