@@ -60,16 +60,6 @@ p a:focus,
 p a:active,
 p a.active  {
     border-bottom: 1px solid #337ab7;
-    -moz-transition: width 0.2s ease;
-    -webkit-transition: width 0.2s ease;
-    transition: width 0.2s ease;
-    background: #337ab7;
-    bottom: 1px;
-    content: '';
-    height: 1px;
-    left: 0;
-    position: absolute;
-    width: 0;
 }
 
 h1,
