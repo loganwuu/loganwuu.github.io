@@ -185,3 +185,15 @@ footer {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
+a.navbar-brand.page-scroll:hover,
+a.navbar-brand.page-scroll:focus,
+a.navbar-brand.page-scroll:active,
+a.navbar-brand.page-scroll.active,
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus,
+.navbar-default .nav li a:active,
+.navbar-default .nav li a.active
+ {
+  color: #FFFF00;
+}
