@@ -136,5 +136,34 @@ h4,
     cursor: default;
 }
 
-/* remove empty white space at the bottom of index.html */
-/*body {padding:0;margin:0;}*/
+header {
+    position:relative;
+    z-index:1;
+    height:1000px;
+    width:100%;
+    background-attachment:fixed;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+#about {
+    position:relative;
+    z-index:2;
+    padding-bottom: 120px;
+    text-shadow: none;
+/*    background-color:#fff;
+    border:2px solid #666;  */  
+/*    height:50%; */   /* this height difference allows the bg to show through */    
+}
+
+#about h4,
+#about h2.section-heading {
+  color: #333;
+}
+
+#about p.large.text-muted {
+  text-align: left;
+}
+#skills {
+  margin-top: 500px;
+}
