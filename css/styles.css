@@ -60,9 +60,9 @@ a.navbar-brand.page-scroll:hover {
 
 /*background color transition*/
 .background {
-  animation:background 20s infinite;
-  -moz-animation:background 20s infinite; /* Firefox */
-  -webkit-animation:background 20s infinite; /* Safari and Chrome */
+  animation:background 25s infinite;
+  -moz-animation:background 25s infinite; /* Firefox */
+  -webkit-animation:background 25s infinite; /* Safari and Chrome */
 }
 
 @-moz-keyframes background /* Firefox */
@@ -91,9 +91,9 @@ a.navbar-brand.page-scroll:hover {
 
 /*text color transition*/
 .transition {
-  animation:transition 20s infinite;
-  -moz-animation:transition 20s infinite; /* Firefox */
-  -webkit-animation:transition 20s infinite; /* Safari and Chrome */
+  animation:transition 25s infinite;
+  -moz-animation:transition 25s infinite; /* Firefox */
+  -webkit-animation:transition 25s infinite; /* Safari and Chrome */
 }
 
 @-moz-keyframes transition /* Firefox */
