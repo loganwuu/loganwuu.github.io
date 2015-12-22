@@ -60,64 +60,60 @@ a.navbar-brand.page-scroll:hover {
 
 /*background color transition*/
 .background {
-  animation:background 25s infinite;
-  -moz-animation:background 25s infinite; /* Firefox */
-  -webkit-animation:background 25s infinite; /* Safari and Chrome */
+  animation:background 20s infinite;
+  -moz-animation:background 20s infinite; /* Firefox */
+  -webkit-animation:background 20s infinite; /* Safari and Chrome */
 }
 
 @-moz-keyframes background /* Firefox */
 {
     0%   {background:#6FFF00;}
-    10%  {background:#FFFF00;}
-    25%  {background:#FF4105;}
-    40%  {background:#FE0001;}
-    55%  {background:#FF00FF;}
-    70%  {background:#993CF3;}
-    85%  {background:#00FFFF;}
+    17.5%  {background:#FFFF00;}
+    35%  {background:#FF4105;}
+    52.5%  {background:#FE0001;}
+    70%  {background:#FF00FF;}
+    87.5%  {background:#00FFFF;}
     100% {background:#6FFF00;}
 }
 
 @-webkit-keyframes background /* Firefox */
 {
     0%   {background:#6FFF00;}
-    10%  {background:#FFFF00;}
-    25%  {background:#FF4105;}
-    40%  {background:#FE0001;}
-    55%  {background:#FF00FF;}
-    70%  {background:#993CF3;}
-    85%  {background:#00FFFF;}
+    17.5%  {background:#FFFF00;}
+    35%  {background:#FF4105;}
+    52.5%  {background:#FE0001;}
+    70%  {background:#FF00FF;}
+    87.5%  {background:#00FFFF;}
     100% {background:#6FFF00;}
 }
 
 /*text color transition*/
 .transition {
-  animation:transition 25s infinite;
-  -moz-animation:transition 25s infinite; /* Firefox */
-  -webkit-animation:transition 25s infinite; /* Safari and Chrome */
+  animation:transition 20s infinite;
+  -moz-animation:transition 20s infinite; /* Firefox */
+  -webkit-animation:transition 20s infinite; /* Safari and Chrome */
 }
 
 @-moz-keyframes transition /* Firefox */
 {
-    0%   {color:#6FFF00;}
-    10%  {color:#FFFF00;}
-    25%  {color:#FF4105;}
-    40%  {color:#FE0001;}
-    55%  {color:#FF00FF;}
-    70%  {color:#993CF3;}
-    85%  {color:#00FFFF;}
-    100% {color:#6FFF00;}
+    0%     {color:#6FFF00;}
+    17.5%  {color:#FFFF00;}
+    35%    {color:#FF4105;}
+    52.5%  {color:#FE0001;}
+    70%    {color:#FF00FF;}
+    87.5%  {color:#00FFFF;}
+    100%   {color:#6FFF00;}
 }
 
 @-webkit-keyframes transition /* Firefox */
 {
-    0%   {color:#6FFF00;}
-    10%  {color:#FFFF00;}
-    25%  {color:#FF4105;}
-    40%  {color:#FE0001;}
-    55%  {color:#FF00FF;}
-    70%  {color:#993CF3;}
-    85%  {color:#00FFFF;}
-    100% {color:#6FFF00;}
+    0%     {color:#6FFF00;}
+    17.5%  {color:#FFFF00;}
+    35%    {color:#FF4105;}
+    52.5%  {color:#FE0001;}
+    70%    {color:#FF00FF;}
+    87.5%  {color:#00FFFF;}
+    100%   {color:#6FFF00;}
 }
 /*section#contact .section-heading {
   color: #FFF;
