@@ -67,81 +67,57 @@ a.navbar-brand.page-scroll:hover {
 
 @-moz-keyframes background /* Firefox */
 {
-    0%   {background:#50B517;}
-    10%  {background:#179067;}
-    20%  {background:#476EAF;}
-    30%  {background:#9f49ac;}
-    40%  {background:#CC42A2;}
-    50%  {background:#FF3BA7;}
-    60%  {background:#FF5800;}
-    70%  {background:#FF8100;}
-    80%  {background:#FEAC00;}
-    90%  {background:#FFCC00;}
-    100% {background:#EDE604;}
+    0%   {background:#6FFF00;}
+    10%  {background:#FFFF00;}
+    25%  {background:#FF4105;}
+    40%  {background:#FE0001;}
+    55%  {background:#FF00FF;}
+    70%  {background:#993CF3;}
+    85%  {background:#00FFFF;}
+    100% {background:#6FFF00;}
 }
 
 @-webkit-keyframes background /* Firefox */
 {
-    0%   {background:#50B517;}
-    10%  {background:#179067;}
-    20%  {background:#476EAF;}
-    30%  {background:#9f49ac;}
-    40%  {background:#CC42A2;}
-    50%  {background:#FF3BA7;}
-    60%  {background:#FF5800;}
-    70%  {background:#FF8100;}
-    80%  {background:#FEAC00;}
-    90%  {background:#FFCC00;}
-    100% {background:#EDE604;}
+    0%   {background:#6FFF00;}
+    10%  {background:#FFFF00;}
+    25%  {background:#FF4105;}
+    40%  {background:#FE0001;}
+    55%  {background:#FF00FF;}
+    70%  {background:#993CF3;}
+    85%  {background:#00FFFF;}
+    100% {background:#6FFF00;}
 }
 
 /*text color transition*/
 .transition {
-  animation:transition 40s infinite;
-  -moz-animation:transition 40s infinite; /* Firefox */
-  -webkit-animation:transition 40s infinite; /* Safari and Chrome */
+  animation:transition 20s infinite;
+  -moz-animation:transition 20s infinite; /* Firefox */
+  -webkit-animation:transition 20s infinite; /* Safari and Chrome */
 }
 
 @-moz-keyframes transition /* Firefox */
 {
-    0%    {color:#179067;}
-    5%    {color:#476EAF;}
-    15%   {color:#9f49ac;}
-    25%   {color:#CC42A2;}
-    30%   {color:#FF3BA7;}
-    35%   {color:#FF5800;}
-    40%   {color:#FF8100;}
-    45%   {color:#FEAC00;}
-    50%   {color:#FFCC00;}
-    55%   {color:#FEAC00;}
-    60%   {color:#FF8100;}
-    65%   {color:#FF5800;}
-    70%   {color:#FF3BA7;}
-    75%   {color:#CC42A2;}
-    85%   {color:#9f49ac;}
-    95%   {color:#476EAF;}
-    100%  {color:#179067;}
+    0%   {color:#6FFF00;}
+    10%  {color:#FFFF00;}
+    25%  {color:#FF4105;}
+    40%  {color:#FE0001;}
+    55%  {color:#FF00FF;}
+    70%  {color:#993CF3;}
+    85%  {color:#00FFFF;}
+    100% {color:#6FFF00;}
 }
 
 @-webkit-keyframes transition /* Firefox */
 {
-    0%    {color:#179067;}
-    5%    {color:#476EAF;}
-    15%   {color:#9f49ac;}
-    25%   {color:#CC42A2;}
-    30%   {color:#FF3BA7;}
-    35%   {color:#FF5800;}
-    40%   {color:#FF8100;}
-    45%   {color:#FEAC00;}
-    50%   {color:#FFCC00;}
-    55%   {color:#FEAC00;}
-    60%   {color:#FF8100;}
-    65%   {color:#FF5800;}
-    70%   {color:#FF3BA7;}
-    75%   {color:#CC42A2;}
-    85%   {color:#9f49ac;}
-    95%   {color:#476EAF;}
-    100%  {color:#179067;}
+    0%   {color:#6FFF00;}
+    10%  {color:#FFFF00;}
+    25%  {color:#FF4105;}
+    40%  {color:#FE0001;}
+    55%  {color:#FF00FF;}
+    70%  {color:#993CF3;}
+    85%  {color:#00FFFF;}
+    100% {color:#6FFF00;}
 }
 /*section#contact .section-heading {
   color: #FFF;
@@ -200,6 +176,7 @@ header {
 #about p.large.text-muted {
   text-align: left;
 }
+
 #skills {
   margin-top: 500px;
 }
