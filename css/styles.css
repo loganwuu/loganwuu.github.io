@@ -12,7 +12,7 @@
 
 @media(max-width:768px) {
     .navbar {
-        background: #000;
+        background: #222;
         border: 0;
     }
 }
@@ -157,7 +157,7 @@ header {
 #about {
     position:relative;
     z-index:2;
-    padding-bottom: 120px;
+    padding-bottom: 110px;
     text-shadow: none;
 /*    background-color:#fff;
     border:2px solid #666;  */  

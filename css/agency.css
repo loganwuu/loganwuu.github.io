@@ -233,7 +233,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: rgba(237,230,4,0.5);
+    background-color: #FFFF00;
     opacity: 1;
     filter: alpha(opacity=100); /* For IE8 and earlier */
     -webkit-font-smoothing: antialiased;
