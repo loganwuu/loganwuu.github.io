@@ -287,7 +287,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #53aee0;
 }
 
-@media(min-width:768px) {
+@media(min-width:790px) {
     .navbar-default {
         padding: 10px 0;
         border: 0;
