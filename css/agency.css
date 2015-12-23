@@ -55,11 +55,25 @@ a.active {
     text-decoration: none;
 }
 
-p a:hover,
-p a:focus,
-p a:active,
-p a.active  {
-    border-bottom: 1px solid #337ab7;
+p a {
+    display: inline-block;
+}
+
+p a:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+p a:hover:after,
+p a:focus:after,
+p a:active:after,
+p a.active:after  {
+    width: 100%;
+    background: #337ab7;
 }
 
 h1,
