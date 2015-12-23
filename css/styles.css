@@ -194,8 +194,8 @@ a.navbar-brand.page-scroll.active,
   color: #FFFF00;
 }
 
-@media(max-width:819px) {
-    a.navbar-brand.page-scroll {
+@media (max-width:819px) {
+    .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
 }
