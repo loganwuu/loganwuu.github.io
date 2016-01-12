@@ -180,13 +180,18 @@ fieldset[disabled] .btn-primary.active {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/*.btn-xl:active,*/
-/*.btn-xl.active,*/
-/*.open .dropdown-toggle.btn-xl {*/
-/*    background-image: none;*/
-/*    -webkit-font-smoothing: antialiased;*/
-/*    -moz-osx-font-smoothing: grayscale;*/
-/*}*/
+.btn-xl:active {
+    vertical-align: top;
+    padding: 21px 40px 19px;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
 .btn-xl.disabled,
 .btn-xl[disabled],
