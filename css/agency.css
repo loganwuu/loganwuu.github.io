@@ -642,6 +642,16 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
+#skills {
+    margin-top: 550px;
+}
+
+@media(min-width:440px) {
+    #skills {
+        margin-top: 430px;
+    }
+}
+
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
@@ -676,6 +686,10 @@ section h3.section-subheading {
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
+    }
+    
+    #skills {
+        margin-top: 500px;
     }
 }
 
