@@ -1,6 +1,6 @@
 # my website
 
-##### a mobile responsive [personal portfolio site](http://loganwuu.github.io)
+a mobile responsive [personal portfolio site](http://loganwuu.github.io)
 
 #### By Logan Wu
 
