@@ -46,7 +46,8 @@ a.navbar-brand.page-scroll:hover {
   /*-webkit-transition: all .5s;*/
   /*-moz-transition: all .5s;*/
   /*transition: all .5s;*/
-  -webkit-font-smoothing: antialiased;
+  transition: all .5s ease 0s;
+  -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale;
 }
 
