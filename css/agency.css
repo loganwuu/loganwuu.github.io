@@ -182,7 +182,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl:active {
     vertical-align: top;
-    padding: 21px 40px 19px;
+    padding: 23px 40px 19px;
+    z-index: 3;
 }
 
 .btn-xl:active,
