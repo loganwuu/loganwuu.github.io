@@ -151,7 +151,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 22px 40px 20px;
+    padding: 18px 40px 16px;
     border-color: #53aee0;
     border-radius: 3px;
     text-transform: uppercase;
@@ -182,7 +182,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl:active {
     vertical-align: top;
-    padding: 23px 40px 19px;
+    padding: 19px 40px 15px;
     z-index: 3;
 }
 
