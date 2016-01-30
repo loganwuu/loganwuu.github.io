@@ -604,6 +604,9 @@ section h3.section-subheading {
     margin-top: 12px;
     font-size: 10px;
     line-height: 14px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 
 .timeline>li .timeline-image:hover {
@@ -762,6 +765,9 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #f1f1f1;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 
 .team-member img:hover {
