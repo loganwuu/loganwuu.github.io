@@ -607,7 +607,12 @@ section h3.section-subheading {
 }
 
 .timeline>li .timeline-image:hover {
-    box-shadow: 0 4px 9px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-box-shadow: 1px 1px 22px 4px rgba(0,0,0,0.15);
+    -moz-box-shadow: 1px 1px 22px 4px rgba(0,0,0,0.15);
+    box-shadow: 1px 1px 22px 4px rgba(0,0,0,0.15);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
@@ -760,7 +765,12 @@ section h3.section-subheading {
 }
 
 .team-member img:hover {
-    box-shadow: 0 4px 9px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-box-shadow: 1px 1px 22px 4px rgba(0,0,0,0.15);
+    -moz-box-shadow: 1px 1px 22px 4px rgba(0,0,0,0.15);
+    box-shadow: 1px 1px 22px 4px rgba(0,0,0,0.15);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 
 .team-member h4 {
