@@ -467,8 +467,9 @@ section h3.section-subheading {
     height: 100%;
     opacity: 0;
     background-color: #53aee0;
-    background-image: -webkit-linear-gradient(#53aee0,#3da4dc);
-    background-image: linear-gradient(#53aee0,#3da4dc);
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.10);
+    /*background-image: -webkit-linear-gradient(#53aee0,#3da4dc);*/
+    /*background-image: linear-gradient(#53aee0,#3da4dc);*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-transition: all ease .5s;
