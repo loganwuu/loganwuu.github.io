@@ -759,6 +759,10 @@ section h3.section-subheading {
     border: 7px solid #f1f1f1;
 }
 
+.team-member img:hover {
+    box-shadow: 0 4px 9px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
