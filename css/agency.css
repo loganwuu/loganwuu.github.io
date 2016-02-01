@@ -170,7 +170,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    background-color: rgba(255,255,255,0.3);
+    color: #fff;
+    background-color: rgba(255,255,255,0.2);
     box-shadow: 0 4px 9px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     /*background-image: -webkit-linear-gradient(#53aee0,#3da4dc);*/
     /*background-image: linear-gradient(#53aee0,#3da4dc);*/
