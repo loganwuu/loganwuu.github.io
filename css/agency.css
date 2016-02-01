@@ -65,7 +65,7 @@ p a:after {
     height: 2px;
     width: 0;
     background: transparent;
-    transition: width .5s ease, background-color .5s ease;
+    transition: width .3s ease, background-color .3s ease;
 }
 
 p a:hover:after,
@@ -73,7 +73,7 @@ p a:focus:after,
 p a:active:after,
 p a.active:after  {
     width: 100%;
-    background: #337ab7;
+    background: rgba(51,123,183,0.2);
 }
 
 h1,
