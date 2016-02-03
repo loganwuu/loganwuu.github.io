@@ -12,7 +12,7 @@
 
 @media(max-width:768px) {
     .navbar {
-        background: #222;
+        background: #333;
         border: 0;
     }
 }
