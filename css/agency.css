@@ -615,9 +615,9 @@ section h3.section-subheading {
 }
 
 .timeline>li .timeline-image:hover {
-    -webkit-box-shadow: 1px 1px 22px 4px rgba(0,0,0,0.15);
-    -moz-box-shadow: 1px 1px 22px 4px rgba(0,0,0,0.15);
-    box-shadow: 1px 1px 22px 4px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 1px 1px 22px 4px #ADDCF6;
+    -moz-box-shadow: 1px 1px 22px 4px #ADDCF6;
+    box-shadow: 1px 1px 22px 4px #ADDCF6;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -776,9 +776,9 @@ section h3.section-subheading {
 }
 
 .team-member img:hover {
-    -webkit-box-shadow: 1px 1px 22px 4px rgba(0,0,0,0.15);
-    -moz-box-shadow: 1px 1px 22px 4px rgba(0,0,0,0.15);
-    box-shadow: 1px 1px 22px 4px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 1px 1px 22px 4px #ADDCF6;
+    -moz-box-shadow: 1px 1px 22px 4px #ADDCF6;
+    box-shadow: 1px 1px 22px 4px #ADDCF6;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
