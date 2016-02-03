@@ -236,8 +236,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    /*border-color: #3CC4FF;*/
-    background-color: #53aee0;
+    background-color: #7AC4EC;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -246,7 +245,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #FFFF00;
+    background-color: #319AD2;
     opacity: 1;
     filter: alpha(opacity=100); /* For IE8 and earlier */
     -webkit-font-smoothing: antialiased;
