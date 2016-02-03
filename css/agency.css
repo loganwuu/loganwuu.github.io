@@ -88,13 +88,14 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
     -webkit-font-smoothing: antialiased;
 }
 
 h2 {
     text-transform: none;
     font-family: 'Passion One', cursive;
+    font-weight: 400;
+    font-size: 3.5em;
 }
 
 .img-centered {
