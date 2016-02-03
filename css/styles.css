@@ -196,10 +196,20 @@ a.navbar-brand.page-scroll.active,
 /*    }*/
 /*}*/
 
-.card-shadow-hover {
-    box-shadow: 0 4px 9px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+.card-shadow {
+    border: 1px solid #a5a5a5;
     border-bottom-left-radius: .3125em;
     border-top-left-radius: .3125em;
     border-bottom-right-radius: .3125em;
     border-top-right-radius: .3125em;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+}
+
+.card-shadow:hover,
+.card-shadow:focus {
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    transition: all .4s ease-out;
 }
