@@ -73,7 +73,7 @@ p a:focus:after,
 p a:active:after,
 p a.active:after  {
     width: 100%;
-    background: rgba(51,123,183,0.2);
+    background: rgba(122,196,236,.2);
 }
 
 h1,
