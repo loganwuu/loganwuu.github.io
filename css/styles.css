@@ -197,7 +197,7 @@ a.navbar-brand.page-scroll.active,
 /*}*/
 
 .card-shadow {
-    border: 1px solid #a5a5a5;
+    border: 1px solid transparent;
     border-bottom-left-radius: .3125em;
     border-top-left-radius: .3125em;
     border-bottom-right-radius: .3125em;
@@ -209,6 +209,7 @@ a.navbar-brand.page-scroll.active,
 
 .card-shadow:hover,
 .card-shadow:focus {
+    box-shadow: 0 4px 9px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-transition: all .4s ease-out;
     -moz-transition: all .4s ease-out;
     transition: all .4s ease-out;
