@@ -197,10 +197,10 @@ a.navbar-brand.page-scroll.active,
 /*}*/
 
 .card-shadow {
-    border-bottom-left-radius: .3125em;
-    border-top-left-radius: .3125em;
-    border-bottom-right-radius: .3125em;
-    border-top-right-radius: .3125em;
+    /*border-bottom-left-radius: .3125em;*/
+    /*border-top-left-radius: .3125em;*/
+    /*border-bottom-right-radius: .3125em;*/
+    /*border-top-right-radius: .3125em;*/
     -webkit-transition: all .4s ease-out;
     -moz-transition: all .4s ease-out;
     transition: all .4s ease-out;
