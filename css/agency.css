@@ -279,19 +279,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #53aee0;
+    color: #7AC4EC;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #53aee0;
+    background-color: #7AC4EC;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #53aee0;
+    background-color: #7AC4EC;
 }
 
 @media(min-width:790px) {
