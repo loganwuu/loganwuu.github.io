@@ -197,7 +197,6 @@ a.navbar-brand.page-scroll.active,
 /*}*/
 
 .card-shadow {
-    border: 1px solid transparent;
     border-bottom-left-radius: .3125em;
     border-top-left-radius: .3125em;
     border-bottom-right-radius: .3125em;
