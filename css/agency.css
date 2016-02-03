@@ -18,6 +18,10 @@ body {
     color: #7AC4EC;
 }
 
+h3 .text-primary {
+    color: #ADDCF6;
+}
+
 p {
     font-size: 1em;
     line-height: 1.75;
