@@ -213,3 +213,8 @@ a.navbar-brand.page-scroll.active,
     -moz-transition: all .4s ease-out;
     transition: all .4s ease-out;
 }
+
+p.large.text-muted {
+    font-family: "Lato","Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
