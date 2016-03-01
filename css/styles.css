@@ -218,3 +218,12 @@ p.large.text-muted {
     font-family: "Lato","Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
 }
+
+/*navbar-brand animation*/
+a.navbar-brand.page-scroll:hover,
+a.navbar-brand.page-scroll:active,
+a.navbar-brand.page-scroll:focus {
+    transform: scale(0.94);
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
