@@ -221,8 +221,7 @@ p.large.text-muted {
 
 /*navbar-brand animation*/
 a.navbar-brand.page-scroll:hover,
-a.navbar-brand.page-scroll:active,
-a.navbar-brand.page-scroll:focus {
+a.navbar-brand.page-scroll:active {
     transform: scale(0.94);
     -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease;
